@@ -1,0 +1,117 @@
+
+.mobileContent {
+    display: none;
+}
+.main-side-menu {
+    font-family: 'Alegreya SC',Georgia,"Times New Roman",serif;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0.9);
+    display: inline-block;
+    height: 100vh;
+    position: fixed;
+    width: 17%;
+    
+}
+.main-side-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e2e2e2;
+    font-weight: 600;
+}
+.main-side-menu div {
+    line-height: 1em;
+}
+.navSideMenu {
+    margin: 50px 15px 50px 25px;
+    padding: 10px 5px 10px 5px;
+}
+.navSideMenu div {
+    margin: 5px;
+    padding: 5px;
+}
+.navSideMenu div :hover {
+    filter: brightness(80%);
+}
+
+
+@media only screen and (max-width: 600px){
+    .main-side-menu {
+        font-family: 'Alegreya SC',Georgia,"Times New Roman",serif;
+        text-decoration: none;
+        height: 80px;
+        display: block !important;
+        position: relative;
+        width: 100%;
+        background-color:  #0e2334;
+      
+            }
+
+
+
+    .mobileContent {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+    }
+   
+    .dropdown {
+        margin: 5px;
+        display:inline-block;
+        margin-right: 20px;
+       
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #0e2334;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        right: 20px;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        color: #94654d;
+        font-family: 'Aleo',Georgia,"Times New Roman",serif;
+        font-size: 16px;
+    }
+    .dropbtn {
+        background-color: #0e2334;
+        border: 0;
+        margin-top: 20px;
+    }
+    .dropbtn div{
+        width: 25px;
+        height: 2px;
+        background-color: #94654d;
+        margin: 6px 0;
+    }
+    .navLogo {
+        height: 100%;
+        /* position: absolute; */
+        width: 100%;
+        padding: 15px;
+        padding-left: 40px;
+        /* margin: 5px; */
+        display:inline-block;
+    }
+    .navLogoImg {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .main-side-menu div {
+        line-height: 1em;
+    }
+    .navSideMenu {
+        display: none;
+    }
+
+}

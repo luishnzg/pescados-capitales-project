@@ -1,0 +1,136 @@
+.ubicacionMain {
+    z-index: 10;
+    background-color: #e7e5d8;
+}
+.ubicacionLogo-Top {
+    padding: 27px 0;
+    text-align: center;
+}
+.ubicacionLogo {
+    width: 15%;
+    display: inline-block;
+}
+.ubicacionLogo-Top img {
+    width: 100%;
+    height: auto;
+}
+.ubicacionInfoMap { 
+    padding: 27px 0 100px 200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.ubicacionMap-top { 
+    margin: 20px;
+    height: 100%;
+}
+.ubicacionInfo-low {
+display: flex;
+flex-direction: column;
+text-align: right;
+color: #666;
+}
+.ubicacionInfo-low p{
+padding: 10px 0;
+}
+.ubicacionInfo-1 p {
+    font-weight: 600;
+    font-size: 35px;
+    padding: 10px 0;
+}
+.ubicacionInfo-2 p { 
+    padding-bottom: 1em;
+    font-size: 18px;
+    color: #666;
+    
+}
+.ubicacionInfo-2 a { 
+    color: #666;
+}
+
+.iFrame {
+    width: 450px;
+    height: 100%;
+    border: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .ubicacionMain {
+        background-color: #e7e5d8;
+        display: block;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .ubicacionLogo-Top {
+        padding: 27px 0;
+        text-align: center;
+        display: block;
+        justify-content: center;
+    }
+   
+    .ubicacionLogo {
+        width: 200px;
+        display: inline-block;
+    }
+    .ubicacionLogo-inner {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;  
+    }
+    .ubicacionLogo-inner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .ubicacionInfoMap { 
+        padding: 27px 0 100px 0;
+        height: 1200px;
+        display: block;
+    }
+    
+    .ubicacionMap-top { 
+        margin: 0;
+        height: 100%;
+        display: block;
+    }
+    .ubicacionInfo-top {
+        display: block;
+    }
+    .ubicacionInfo-low {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #666;
+    }
+    .ubicacionInfo-low p{
+    padding: 10px 0;
+    }
+    .ubicacionInfo-1 p {
+        font-weight: 600;
+        font-size: 35px;
+        padding: 10px 0;
+    }
+    .ubicacionInfo-2 p { 
+        padding-bottom: 1em;
+        font-size: 18px;
+        color: #666;
+        
+    }
+    .ubicacionInfo-2 a { 
+        color: #666;
+    }
+    .ubicacionMap-top { 
+        height: 300px;
+        width: 100%;
+        display: block;
+    }
+    .iFrame {
+        width: 80%;
+        border: 0;
+        display: block ;
+        margin: auto;
+    }
+}

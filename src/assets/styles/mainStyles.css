@@ -1,0 +1,23 @@
+.mainContainers {
+    display: inline-block;
+    width: 83%;
+    position: relative;
+    left: 17%;
+    
+}
+
+.mainContainersBoxShadow {
+    box-shadow: 0px -7px 18px -6px rgb(0 0 0 / 30%);
+}
+
+@media only screen and (max-width: 600px) {
+    .mainContainers {
+        display: block;
+        width: 100%;
+        left: 0%;
+        /* position: relative; */   
+    }
+
+}
+
+

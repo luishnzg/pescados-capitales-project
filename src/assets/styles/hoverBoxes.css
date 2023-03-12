@@ -1,0 +1,128 @@
+.mobileContentHoverBoxes{
+    display: none;
+}
+.hoverBoxes {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    box-shadow: 0px 7px 18px -6px rgb(0 0 0 / 30%);
+}
+.hoverBoxes div {
+    height: 315px;
+}
+.hoverBoxes img {
+    width: 100%;
+    height: 100%;
+}
+.background-box {
+    background-size: contain;
+    background-position: center;
+ }
+ .hoverEffect {
+    display: none;
+ }
+.hoverBoxes1-2 {
+    background-image: url("http://pescadoscapitales.cl/wp-content/uploads/2020/02/M02.jpg");
+}
+.hoverBoxes1-2:hover {
+    background-image: none;
+}
+.hoverBoxes1-2:hover .hoverEffect {
+    display: block;
+    background-color: #e7e5d8;
+}
+.hoverBoxes1-3 {
+    background-image: url("http://pescadoscapitales.cl/wp-content/uploads/2020/02/M03.jpg");
+    background-color: #0e2334;
+}
+.hoverBoxes1-3:hover {
+    background-image: none;
+}
+.hoverBoxes1-3:hover .hoverEffect {
+    display: block;
+}
+.hoverBoxes1-4 {
+    background-color: #a6664a;
+}
+.hoverBoxes2-1 {
+    background-image: url("http://pescadoscapitales.cl/wp-content/uploads/2020/02/M05.jpg");
+    background-color: #e7e5d8;
+}
+.hoverBoxes2-1:hover {
+    background-image: none;
+}
+.hoverBoxes2-1:hover .hoverEffect {
+    display: block;
+}
+
+.hoverBoxes2-2 {
+    background-image: url("http://pescadoscapitales.cl/wp-content/uploads/2020/02/M06.jpg");
+    background-color: #a6664a;
+}
+.hoverBoxes2-2:hover {
+    background-image: none;
+}
+.hoverBoxes2-2:hover .hoverEffect {
+    display: block;
+}
+
+.hoverBoxes2-3 {
+    background-image: url("https://pescadoscapitales.cl/wp-content/uploads/2020/02/M07.jpg");
+    background-color: #e7e5d8;
+}
+.hoverBoxes2-3:hover {
+    background-image: none;
+}
+.hoverBoxes2-3:hover .hoverEffect {
+    display: block;
+}
+.hoverBoxes2-4 {
+    background-image: url("https://pescadoscapitales.cl/wp-content/uploads/2020/02/M08.jpg");
+    background-color: #a1c6c4;
+}
+.hoverBoxes2-4:hover {
+    background-image: none;
+}
+.hoverBoxes2-4:hover .hoverEffect {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .hoverBoxes {
+        display: none;
+    }
+    .mobileContentHoverBoxes{
+        width: 100%;
+        background-color: #0e2334;
+        display: block;
+    }
+    .hoverImageDiv{
+        display: block; 
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+    }
+    .hoverImage{
+        width: 100%;
+    }
+    .hoverButtonDiv {
+        display: block;
+        margin: auto;
+        
+        text-align: center;
+    }
+    .hoverBoxButton {
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        color: #94654d;
+        border-color: #94654d;
+        border-width: 2px;
+        border-radius: 1px;
+        font-size: 16px;
+        font-family: 'Alegreya SC',Georgia,"Times New Roman",serif;
+        background-color: #0e2334;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+}
+
